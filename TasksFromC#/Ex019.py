@@ -1,10 +1,10 @@
 #19. Определить номер четверти плоскости, в которой находится точка с координатами Х и У, причем X ≠ 0 и Y ≠ 0
-#from random import randrange
-#x = randrange(-10, 11)
-#y = randrange(-10, 11)
+from random import randrange
+x = randrange(-10, 11)
+y = randrange(-10, 11)
 
-x = float(input("enter coordinate X = "))
-y = float(input("enter coordinate Y = "))
+#x = float(input("enter coordinate X = "))
+#y = float(input("enter coordinate Y = "))
 if (x != 0 and y != 0):
     if x > 0 and y > 0:
         print("it's 1'st quarter")
