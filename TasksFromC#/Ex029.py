@@ -5,6 +5,7 @@ for i in range(1, n+1):
     res *= i
 print(res)
 
-
+import math
+print(math.factorial(int(input())))
 
 
