@@ -8,9 +8,12 @@ for i in range (-n, n+1):
 
 res = 1
 with open('Ex017.txt', 'r') as data:
-    for line in data:
-      i = int(line)
-      res = res * list[i]
+    for line in data:            
+        i = int(line)
+        if i > len(list):                   
+            print("список слишком короткий")
+        else:
+            res = res * list[i]
 print(res)
 
 # res = 1
